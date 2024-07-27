@@ -2,13 +2,18 @@
   "name": "playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "browser-test": "playwright browser-test",
+    "open": "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
-    "@types/node": "^20.14.12"
+    "@types/node": "^20.14.12",
+    "dotenv": "^16.0.3"
   }
 }

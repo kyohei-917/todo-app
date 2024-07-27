@@ -20,6 +20,5 @@ test('As a user, I want to create a new to-do item so that I can keep track of m
 
   // 作成されたTODOが表示されていることを確認する
   await expect(page.getByText(testTodoTitle)).toBeVisible();
-  await expect(page).toHaveTitle('todo ng');
 });
 

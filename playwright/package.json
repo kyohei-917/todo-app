@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "browser-test": "playwright browser-test",
+    "browser-test": "playwright  --headed",
     "open": "playwright test --ui"
   },
   "keywords": [],
